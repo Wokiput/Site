@@ -1,0 +1,44 @@
+@font-face {
+    font-family: English Rose;
+    src: url(C:\USERS\ДАНИЛ\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\19268.ttf);
+    font-family: Bleeding CowboysRUS;
+    src: url(C:\USERS\ДАНИЛ\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\18700.ttf);
+}
+body{
+    background-color: #006A55;
+}
+h1{
+    font-family: English Rose, 'Comic Sans MS', cursive;
+    color: #5ED1BA;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px black;
+}
+main{
+    text-align: center;
+    background-color: #3F046F;
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+bottom{
+    background-color: white;
+    color: #A468D5;
+    font-family: Bleeding CowboysRUS, 'Comic Sans MS';
+    line-height: 100px;
+    width: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    padding: 0 10px 10px 5px;
+    border: 5px solid black;
+}
+stih{
+    color:#FFF840;
+    line-height: 20px;
+    width: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+}
