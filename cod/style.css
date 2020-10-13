@@ -1,8 +1,8 @@
 @font-face {
     font-family: English Rose;
-    src: url(C:\USERS\ДАНИЛ\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\19268.ttf);
+    src: url(https://fonts.google.com/specimen/Press+Start+2P);
     font-family: Bleeding CowboysRUS;
-    src: url(C:\USERS\ДАНИЛ\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\18700.ttf);
+    src: url(https://fonts.google.com/specimen/Montserrat+Alternates);
 }
 body{
     background-color: #006A55;
@@ -33,12 +33,4 @@ bottom{
     text-shadow: 1px 1px 1px black;
     padding: 0 10px 10px 5px;
     border: 5px solid black;
-}
-stih{
-    color:#FFF840;
-    line-height: 20px;
-    width: 10px;
-    letter-spacing: 1px;
-    font-size: 20px;
-    text-shadow: 1px 1px 1px black;
 }
