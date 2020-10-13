@@ -1,8 +1,8 @@
 @font-face {
     font-family: English Rose;
-    src: url(https://fonts.google.com/specimen/Press+Start+2P);
+    src: url(https://github.com/Wokiput/Site/tree/Test/fonts/EnglishRose.ttf);
     font-family: Bleeding CowboysRUS;
-    src: url(https://fonts.google.com/specimen/Montserrat+Alternates);
+    src: url(https://github.com/Wokiput/Site/tree/Test/fonts/BleedingCowboysRUS.ttf);
 }
 body{
     background-color: #006A55;
