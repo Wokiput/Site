@@ -1,14 +1,13 @@
 window.onload = init;
-a=["0","1","2","3","4","feo","6","7","8","9"];
-b=["Ноль","Один","Два","Три","Четыре","Оксид Железа","Шесть","Семь","Восемь","Девять"]
+var arr = { "0" : "Ноль", "1" : "Один", "2" : "Два", "3" : "Три", "4" : "Четыре", "feo" : "ОксидЖелеза", "6" : "Шесть", "7" : "Семь", "8" : "Восемь", "9" : "Девять"};
 function init(){
     var button = document.getElementById("addButton")
     button.onclick = handleButtonClick;
 }
   function handleButtonClick() {
-  for(i=0;i<=10;i++){
-    var stroka = document.getElementById("Input").value;
-    if(stroka.toLowerCase() == a[i]) document.writeln(b[i]);
-    //else alert("Ошибка!"); break;
+    var stroka = document.getElementById("Input").value.toLowerCase();
+    if (arr.hasOwnProperty(stroka)){
+      document.writeln(arr[stroka]);
+    }
+    else document.writeln("Error");
   }
-}
