@@ -10,12 +10,12 @@
     </h1>
     <main>
       <form>
-        <input type = "text" id="Input"  size="40"  placeholder="Формула Алкана">
-        <input type="button" id="addButton"  value="Enter">
+        <input type = "text" id="Input" value="" onkeypress="if(event.keyCode == 13) return false;" size="40" placeholder="Формула Алкана Например: C4H10 или c4h10" >
+        <input type="button" id="addButton"  value="Enter" onclick='img()'>
+        <div id="block1" class="block1"></div>
+        <div id="block2" class="block2"></div>
       </form>
-      <ul id = "list"></ul>
       <br><main1>Картинка должна появляться здесь</main1>
-      <br><main1>А здесь название</main1>
     </main>
   </body>
 </html>
