@@ -5,26 +5,21 @@
     src: url(https://github.com/Wokiput/Site/tree/Test/fonts/BleedingCowboysRUS.ttf);
 }
 body{
-    background-color: #006A55;
+    background-color: #3F92D2;
 }
 h1{
     font-family: English Rose, 'Comic Sans MS', cursive;
-    color: #5ED1BA;
+    color: #FF9200;
     text-align: center;
     font-size: 70px;
     text-shadow: 2px 2px 2px black;
 }
 main{
     text-align: center;
-    background-color: #3F046F;
-    img{
-        display: block;
-        margin: 0 auto;
-    }
+    background-color: whitesmoke;
 }
-bottom{
-    background-color: white;
-    color: #A468D5;
+main1{
+    color: #3E94D1;
     font-family: Bleeding CowboysRUS, 'Comic Sans MS';
     line-height: 100px;
     width: 10px;
