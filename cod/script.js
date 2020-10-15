@@ -11,5 +11,5 @@ function handleButtonClick() {
     document.getElementById('block1').innerHTML = formula[stroka]; //выводит значение из словаря 
   }
   else document.getElementById('block1').innerHTML = "Что-то пошло не так";
-  document.getElementById("image").src = 'https://github.com/Wokiput/Site/tree/Test/img'+stroka.toLowerCase()+'.png' //выводит изображение из папки Img со значением существующем в словаре
+  document.getElementById("image").src = 'https://github.com/Wokiput/Site/tree/Test/img/'+stroka.toLowerCase()+'.png' //выводит изображение из папки Img со значением существующем в словаре
 }
