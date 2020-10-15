@@ -4,12 +4,12 @@ function init(){
     var button = document.getElementById("addButton")
     button.onclick = handleButtonClick;
 }
-  function handleButtonClick() {
-    var stroka = document.getElementById("Input").value.toLowerCase();
-    stroka = stroka.replace(/\s+/g, '');
-    if (formula.hasOwnProperty(stroka)){
-      document.getElementById('block1').innerHTML = formula[stroka];
-    }
-    else document.getElementById('block1').innerHTML = "Что-то пошло не так";
-    document.getElementById("image").src = 'https://github.com/Wokiput/Site/tree/Test/img'+stroka.toLowerCase()+'.png'
+function handleButtonClick() {
+  var stroka = document.getElementById("Input").value.toLowerCase();//преобразует введённое значение в строку нижнего регистра
+  stroka = stroka.replace(/\s+/g, '');                             //заменяет все пробелы на незначемые символы (удаляет их)
+  if (formula.hasOwnProperty(stroka)){                             //ищет преобразованную строку в словаре
+    document.getElementById('block1').innerHTML = formula[stroka]; //выводит значение из словаря 
   }
+  else document.getElementById('block1').innerHTML = "Что-то пошло не так";
+  document.getElementById("image").src = 'https://github.com/Wokiput/Site/tree/Test/img'+stroka.toLowerCase()+'.png' //выводит изображение из папки Img со значением существующем в словаре
+}
