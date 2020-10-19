@@ -1,5 +1,5 @@
 window.onload = init;
-var formula = { "ch4" : "Метан", "c2h6" : "Этан", "c3h8" : "Пропан", "c4h10" : "Бутан", "c5h12" : "Пентан", "c6h14" : "Гексан", "c7h16" : "Гептан", "c8h18" : "Октна", "c9h20" : "Нонан", "c10h22" : "Декан"};
+var formula = { "ch4" : "метан", "c2h6" : "этан", "c3h8" : "пропан", "c4h10" : "бутан", "c5h12" : "пентан", "c6h14" : "гексан", "c7h16" : "гептан", "c8h18" : "октна", "c9h20" : "нонан", "c10h22" : "декан"};
 function init(){
     var button = document.getElementById("addButton")
     button.onclick = handleButtonClick;
