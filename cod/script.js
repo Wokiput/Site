@@ -23,7 +23,7 @@ function handleButtonClick() {
       document.getElementById("mainimage").src = 'img/main/'+stroka.toLowerCase()+'.png'    //выводит изображение из папки Img со значением из словаря
       return;
     }                                                                                       //ВСЁ ЧТО ВЫШЕ - РАБОТАЕТ!!!
-  stroka.split('-');                                                                        //делит строку введённую с заданным стандартом '1,2-демитил-пентан' на массив из трёх элиментов по тире
+  /*stroka.split('-');                                                                        //делит строку введённую с заданным стандартом '1,2-демитил-пентан' на массив из трёх элиментов по тире
   fstroka = stroka[2].replace("-", '');                                                     //берёт последний элимент массива и проделывает ту же работу что и с простым названием
     if(fname.hasOwnProperty(fstroka)){ 
       fstroka = fname[fstroka];                                                             //если введено название основания, то смотрит во втором словаре и подставляет вместо него значение из словаря
@@ -40,10 +40,10 @@ function handleButtonClick() {
         i++;
       }
       if(sformula.hasOwnProperty(numimg[n])){ 
-        sformula = sformula[numimg[n]];                                                        //если введено название основания, то смотрит во втором словаре и подставляет вместо него значение из словаря
+        sformula = sformula[numimg[n]];                                                     //если введено название основания, то смотрит во втором словаре и подставляет вместо него значение из словаря
         var id = "image"+n.toString();
-        document.getElementById(id).src = 'img/sec/'+sformula.toLowerCase()+'.png'             //выводит основное изображение из папки Img со значением из словаря
+        document.getElementById(id).src = 'img/sec/'+sformula.toLowerCase()+'.png'          //выводит основное изображение из папки Img со значением из словаря
       }  
     n++;
-  }
-}
+    }
+  */}
