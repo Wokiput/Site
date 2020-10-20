@@ -16,34 +16,36 @@ function handleButtonClick() {
       document.getElementById("mainimage").src = 'img/main/'+stroka.toLowerCase()+'.png'    //выводит изображение из папки Img со значением stroka если оно есть в словаре
       return;
     }
-    else
-    if(fname.hasOwnProperty(stroka)){ 
+    else if(fname.hasOwnProperty(stroka)){ 
       stroka = fname[stroka];                                                               //если введено название, то смотрит во втором словаре и подставляет вместо него значение из словаря
       document.getElementById('block1').innerHTML = stroka;
       document.getElementById("mainimage").src = 'img/main/'+stroka.toLowerCase()+'.png'    //выводит изображение из папки Img со значением из словаря
       return;
     }                                                                                       //ВСЁ ЧТО ВЫШЕ - РАБОТАЕТ!!!
-  /*stroka.split('-');                                                                        //делит строку введённую с заданным стандартом '1,2-демитил-пентан' на массив из трёх элиментов по тире
-  fstroka = stroka[2].replace("-", '');                                                     //берёт последний элимент массива и проделывает ту же работу что и с простым названием
-    if(fname.hasOwnProperty(fstroka)){ 
-      fstroka = fname[fstroka];                                                             //если введено название основания, то смотрит во втором словаре и подставляет вместо него значение из словаря
-      document.getElementById('block1').innerHTML = mstroka;
-      document.getElementById("mainimage").src = 'img/main/'+fstroka.toLowerCase()+'.png'   //выводит основное изображение из папки Img со значением из словаря
-    }
-  var mesto = stroka[0].split(',');
-  var n=0;
-  while(n<10){
-    numimg[n]=stroka[1];
-    var i=0;  
-      while(i<10){
-        var numimg[n] = numimg[n].replace(prefix[i], "");
-        i++;
+  
+    /*else { stroka.split('-');                                                                 //делит строку введённую с заданным стандартом '1,2-демитил-пентан' на массив из трёх элиментов по тире
+      fstroka = stroka[2].replace("-", '');                                                     //берёт последний элимент массива и проделывает ту же работу что и с простым названием
+      if(fname.hasOwnProperty(fstroka)){ 
+        fstroka = fname[fstroka];                                                             //если введено название основания, то смотрит во втором словаре и подставляет вместо него значение из словаря
+        document.getElementById('block1').innerHTML = mstroka;
+        document.getElementById("mainimage").src = 'img/main/'+fstroka.toLowerCase()+'.png'   //выводит основное изображение из папки Img со значением из словаря
       }
-      if(sformula.hasOwnProperty(numimg[n])){ 
-        sformula = sformula[numimg[n]];                                                     //если введено название основания, то смотрит во втором словаре и подставляет вместо него значение из словаря
-        var id = "image"+n.toString();
-        document.getElementById(id).src = 'img/sec/'+sformula.toLowerCase()+'.png'          //выводит основное изображение из папки Img со значением из словаря
-      }  
-    n++;
+      var mesto = stroka[0].split(',');
+      var n=0;
+      while(n<10){
+        numimg[n]=stroka[1];
+        var i=0;  
+          while(i<10){
+            var numimg[n] = numimg[n].replace(prefix[i], "");
+            i++;
+          }
+        if(sformula.hasOwnProperty(numimg[n])){ 
+          sformula = sformula[numimg[n]];                                                     //если введено название основания, то смотрит во втором словаре и подставляет вместо него значение из словаря
+          var id = "image"+n.toString();
+          document.getElementById(id).src = 'img/sec/'+sformula.toLowerCase()+'.png'          //выводит основное изображение из папки Img со значением из словаря
+        }  
+      n++;
+      }
+      return;
     }
   */}
