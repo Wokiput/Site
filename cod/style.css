@@ -44,26 +44,18 @@ main{
 .block2{
     display: block;
     max-width: 500px; 
-    max-height: 750px;
+    max-height: 50px;
     background: whitesmoke;
-    padding: 200px;
-    padding-right: 20px; 
-    border: solid 1px black;
-    margin: 10px;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 .img{
     max-width: 500px;
-    max-height: 750px;
-    position: relative 
+    max-height: 50px;
+    position: relative; 
 }
 .img{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
