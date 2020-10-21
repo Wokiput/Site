@@ -43,9 +43,9 @@ main{
 }
 .block2{
     display: block;
-    max-width: 500px; 
+    max-width: 560px; 
     max-height: 50px;
-    background: whitesmoke;
+    background: white;
     margin-left: auto;
     margin-right: auto;
 }
