@@ -1,8 +1,8 @@
 @font-face {
     font-family: English Rose;
-    src: url(https://github.com/Wokiput/Site/tree/Test/fonts/EnglishRose.ttf);
+    src: url(../fonts/EnglishRose.ttf);
     font-family: Bleeding CowboysRUS;
-    src: url(https://github.com/Wokiput/Site/tree/Test/fonts/BleedingCowboysRUS.ttf);
+    src: url(../fonts/BleedingCowboysRUS.ttf);
 }
 body{
     background-color: #3F92D2;
@@ -43,7 +43,7 @@ main{
 }
 .block2{
     display: block;
-    max-width: 560px; 
+    max-width: 700px; 
     max-height: 50px;
     background: white;
     margin-left: auto;
